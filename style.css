@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-color: blanchedalmond;
+    background-color: #ffffff;
     display:flex;
 }
 
@@ -35,4 +35,25 @@ font-family: Open Sans;
 .header--right-item img{
     margin-right: 1em;
     margin-top: 1em;
+}
+
+.main-page {
+    background-image: url("img/photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 730;
+}
+
+.main-page-content button{
+width: 171px;
+height: 104px;
+background-color: #ffffff;
+border-radius: 2px;
+font-size: 1.5em;
+border: 0em;
+position: relative;
+}
+.main-page-content p{
+    font-size: 4em;
+    margin-top: 0em;
 }
