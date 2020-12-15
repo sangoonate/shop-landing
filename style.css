@@ -5,12 +5,13 @@
 }
 
 .header {
-    background-color: #ffddff;
+    background-color: blanchedalmond;
     display:flex;
 }
 
 .header--left-item {
-    margin-left: 2em;
+    margin-left: 5em;
+    font-family: Open Sans;
 }
 
 .header--center-item {
@@ -21,14 +22,17 @@
 
 .header--center-item > p{
     margin-left: 1em;
+    margin-right: 1em;
+font-family: Open Sans;
 }
 
 .header--right-item {
     margin-left: auto;
-    margin-right: 1em;
+    margin-right: 5em;
     display: flex;
 }
 
 .header--right-item img{
     margin-right: 1em;
+    margin-top: 1em;
 }
