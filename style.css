@@ -44,16 +44,33 @@ font-family: Open Sans;
     height: 730;
 }
 
+.main-page-content {
+    position: relative;
+    top: 68%;
+    width: 100%;
+    text-align: center;
+    text-overflow: clip;
+}
 .main-page-content button{
-width: 171px;
-height: 104px;
-background-color: #ffffff;
-border-radius: 2px;
-font-size: 1.5em;
-border: 0em;
-position: relative;
+    width: 171px;
+    height: 104px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    font-size: 1.5em;
+    border: 0px;
 }
 .main-page-content p{
     font-size: 4em;
+    color: #ffffff;
     margin-top: 0em;
+}
+.main-page-content-underline{
+    background-color: black;
+    height: 2px;
+    width: 130px;
+    margin-left: .6em;
+}
+
+.arrow{
+    
 }
